@@ -46,7 +46,6 @@ router.post('/', async (req, res) => {
 
 // update a tag's name by its `id` value
 router.put('/:id', (req, res) => {
-  //Calls the update method on the Book model
   Tag.update(
     {
       // All the fields you can update and the data attached to the request body.
